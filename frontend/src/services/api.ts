@@ -11,7 +11,7 @@ import type {
   TestSuiteResponse
 } from '../types';
 
-const API_BASE_URL = 'http://localhost:8001/api';
+const API_BASE_URL = 'https://parselab-i3tg.onrender.com/api';
 
 export const api = {
   analyzeGrammar: async (grammar_text: string): Promise<{ grammar: Grammar; first_follow: FirstFollowData; doctor: DoctorData }> => {
